@@ -1,0 +1,20 @@
+1 string ascii
+    ruby server.rb -t ascii
+    ruby benchmark.rb -t ascii -n 250 -rm
+
+
+2 string utf
+  ( stable_connect, recreating_connect )
+
+    ruby server.rb -t utf
+    ruby benchmark.rb -t utf -n 250
+    ruby benchmark.rb -t utf -n 250 -us
+
+3 topic
+
+    ruby server.rb -t topic
+    ruby benchmark.rb -t topic -n 100
+
+4 json
+    ruby json_topic_server/serv.rb
+    ruby benchmark.rb -t json -n 100
