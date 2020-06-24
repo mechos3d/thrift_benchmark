@@ -50,7 +50,7 @@ GEM
     multi_json (1.12.1)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
-    rack (2.0.1)
+    rack (2.1.4)
     slop (4.3.0)
     thin (1.7.0)
       daemons (~> 1.0, >= 1.0.9)
